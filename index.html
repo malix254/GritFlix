@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Movie Hub</title>
+        <!-- Bootstrap CSS -->
+        <link
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+        <!-- Tailwind CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+            rel="stylesheet"
+        />
+    </head>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <body class="bg-gray-100">
+        <div class="wrapper">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container">
+                    <!-- Logo -->
+                    <a class="navbar-brand" href="#">
+                        <img
+                            src="images/logos.png"
+                            width="30"
+                            height="30"
+                            class="d-inline-block align-top"
+                            alt="Logo"
+                        />
+                    </a>
+
+                    <!-- Name (Centered) -->
+                    <span class="navbar-text mx-auto"> GritFlix </span>
+
+                    <!-- Hamburger Menu -->
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- Links and Search Form -->
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Movies</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                        </ul>
+                        <form id="form" class="form-inline my-2 my-lg-0">
+                            <input
+                                id="search"
+                                class="form-control mr-sm-2"
+                                type="search"
+                                placeholder="Search"
+                                aria-label="Search"
+                            />
+                            <button
+                                class="btn btn-outline-primary my-2 my-sm-0"
+                                type="submit"
+                            >
+                                Search
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+
+            <br />
+            <br />
+
+            <!-- Intro Part -->
+            <section
+                class="bg-gradient-to-r from-gray-800 to-gray-700 text-white py-12"
+            >
+                <div class="container text-center">
+                    <h2
+                        id="text"
+                        class="text-3xl font-semibold mb-4 typing-animation"
+                    ></h2>
+                    <p class="text-lg">
+                        Discover a world of captivating movies.
+                    </p>
+                    <br>
+                    <p><span style="display: none;">&copy;By Griffins.</span> </p>
+
+                </div>
+            </section>
+            <!-- End Intro Part -->
+
+            <!-- Main Content -->
+            <div class="container mx-auto my-8" id="main">
+                <!-- Movies will be dynamically added here -->
+            </div>
+            <!-- Service Offerings Section -->
+            <!-- Testimonial Section -->
+            <section class="bg-gray-100 py-12">
+                <div class="container mx-auto text-center">
+                    <h2 class="text-3xl font-semibold mb-4">Testimonials</h2>
+                    <!-- Testimonials Container -->
+                    <div
+                        id="testimonialContainer"
+                        class="max-w-md mx-auto bg-white rounded-lg shadow-md p-6"
+                    ></div>
+                </div>
+            </section>
+
+            <!-- Ads Section -->
+            <section class="bg-gray-900 text-white py-12">
+                <div class="container mx-auto text-center">
+                    <h2 class="text-3xl font-semibold mb-4">
+                        Check Out Our Other Projects
+                    </h2>
+                    <!-- Project 1: GritWhizBot -->
+                    <div
+                        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+                    >
+                        <!-- Advertisement for GritWhizBot -->
+                        <div class="p-6 bg-gray-800 rounded-lg shadow-md">
+                            <h3 class="text-xl font-semibold mb-2">
+                                GritWhizBot 🤖
+                            </h3>
+                            <p class="text-gray-300">
+                                Your virtual assistant for web development
+                                inquiries, project showcasing, and service
+                                offerings. Enhance client engagement and
+                                streamline communication with this intuitive
+                                chatbot. Developed by: Griffins
+                            </p>
+                            <a
+                                href="https://gritwhizbot.netlify.app"
+                                class="block mt-4 text-blue-500 hover:text-blue-600"
+                                >Explore GritWhizBot</a
+                            >
+                        </div>
+                        <!-- Project 2: Portfolio -->
+                        <div class="p-6 bg-gray-800 rounded-lg shadow-md">
+                            <h3 class="text-xl font-semibold mb-2">
+                                Portfolio
+                            </h3>
+                            <p class="text-gray-300">
+                                Your friendly neighborhood code wizard 🧙‍♂️! I'm
+                                all about crafting tech magic ✨ as a software
+                                sorcerer. With my spells... uh, I mean, coding
+                                skills, I'm on a mission to turn your wildest
+                                digital dreams into reality! Let's sprinkle some
+                                laughter into the lines of code and make the
+                                world a happier place, one bug fix at a time!
+                                🐞💻
+                            </p>
+                            <a
+                                href="https://thegritagencies.netlify.app"
+                                class="block mt-4 text-blue-500 hover:text-blue-600"
+                                >Explore Portfolio</a
+                            >
+                        </div>
+                        <!-- Project 2: Portfolio -->
+                        <div class="p-6 bg-gray-800 rounded-lg shadow-md">
+                            <h3 class="text-xl font-semibold mb-2">
+                                Portfolio
+                            </h3>
+                            <p class="text-gray-300">
+                                Your friendly neighborhood code wizard 🧙‍♂️! I'm
+                                all about crafting tech magic ✨ as a software
+                                sorcerer. With my spells... uh, I mean, coding
+                                skills, I'm on a mission to turn your wildest
+                                digital dreams into reality! Let's sprinkle some
+                                laughter into the lines of code and make the
+                                world a happier place, one bug fix at a time!
+                                🐞💻
+                            </p>
+                            <a
+                                href="https://thegritagencies.netlify.app"
+                                class="block mt-4 text-blue-500 hover:text-blue-600"
+                                >Explore Portfolio</a
+                            >
+                        </div>
+                        <!-- Add more projects as needed -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Testimonial Section -->
+            <!-- Testimonial Section -->
+
+            <!-- Footer -->
+            <footer class="bg-gray-800 text-white py-4 mt-auto">
+                <div class="container mx-auto text-center">
+                    <p>&copy; 2024 GritFlix. All rights reserved.</p>
+                </div>
+            </footer>
+            <!-- End Footer -->
+
+            <!-- Bootstrap JS -->
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+            <!-- JavaScript for fetching and displaying movies -->
+            <script src="js/script.js"></script>
+        </div>
+    </body>
+</html>
