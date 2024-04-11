@@ -1,6 +1,6 @@
-# GritFlix Movie Guide 🎬
+# GritFlix App 🎬
 
-GritFlix Movie Guide is a simple and intuitive web application designed to help users discover, explore, and find information about their favorite movies. Whether you're a movie enthusiast looking for your next film or just browsing for something to watch, GritFlix has you covered. 🍿✨
+GritFlix  is a simple and intuitive web application designed to help users discover, explore, and find information about their favorite movies. Whether you're a movie enthusiast looking for your next film or just browsing for something to watch, GritFlix has you covered. 🍿✨
 
 ## Features 🌟
 
@@ -12,7 +12,7 @@ GritFlix Movie Guide is a simple and intuitive web application designed to help 
 
 ## Getting Started 🚀
 
-To get started with GritFlix Movie Guide, follow these steps:
+To get started with GritFlix , follow these steps:
 
 1. Clone the repository to your local machine:
 
@@ -23,14 +23,14 @@ To get started with GritFlix Movie Guide, follow these steps:
 2. Navigate to the project directory:
 
    ```bash
-   cd GritFlix-Movie-Guide
+   cd GritFlix
    ```
 
 3. Open the `index.html` file in your web browser.
 
 ## Contributing 🤝
 
-Contributions are welcome! If you'd like to contribute to GritFlix Movie Guide, please fork the repository, make your changes, and submit a pull request. We'd love to see your ideas for improving the app! 🎉👩‍💻👨‍💻
+Contributions are welcome! If you'd like to contribute to GritFlix , please fork the repository, make your changes, and submit a pull request. We'd love to see your ideas for improving the app! 🎉👩‍💻👨‍💻
 
 ## License 📄
 
@@ -42,4 +42,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact 📧
 
-If you have any questions or suggestions regarding GritFlix Movie Guide, feel free to contact us at [griffinskirimimbae@gmail.com](mailto:griffinskirimimbae@gmail.com). 📬
+If you have any questions or suggestions regarding GritFlix , feel free to contact us at [griffinskirimimbae@gmail.com](mailto:griffinskirimimbae@gmail.com). 📬
